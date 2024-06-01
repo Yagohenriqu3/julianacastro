@@ -48,17 +48,12 @@
 }
 
 
-@media( max-width:768px){
+@media( max-width:700px){
     .container-header{
-        background-image: url('../img/bgmobile.png');
         background: linear-gradient(to bottom, rgba(255, 255, 255, 0),  rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgb(255, 255, 255)), url('../img/bgmobile.png');
         height: 100vh;
         background-repeat: no-repeat;
         background-size: cover;
-        
-       
-       
-       
     }
     
     .div-bemvindo{
