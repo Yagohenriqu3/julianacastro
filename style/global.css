@@ -1,0 +1,30 @@
+/*
+#3F7A7D -  cor principal
+#01DAFE
+#00F5F0
+#00FAE3
+}*/ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    min-height: 100rem;
+    
+    margin: auto;
+}
+
+h1,h2,h3{
+    font-family: 'roboto', sans-serif;
+}
+
+p, li{
+    font-family: 'open-sans';
+}

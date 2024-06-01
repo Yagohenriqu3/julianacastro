@@ -1,0 +1,500 @@
+.container-main{
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80rem;
+}
+
+.div-sobremim{
+
+    width: 80%;
+    margin: auto;
+    background-color: #724432;
+    color: #e9d4c6;
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 7px #502f22;
+    
+}
+
+.div-sobremim h2{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.div-sobremim p{
+    font-size: 1.5rem;
+}
+
+/*div posoperatorio*/
+.container-posoperatorio{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 6rem;
+}
+
+.div-posoperatorio1{
+    width: 50%;
+}
+
+.div-posoperatorio1 img{
+   width:100%; 
+}
+
+.div-posoperatorio2{
+    width: 50%;
+    padding: 2rem;
+}
+
+.div-posoperatorio2 h2{
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    color: #724432;
+}
+
+.div-posoperatorio2 p{
+    color: #724432;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+/*fim posopetaorio*/
+
+/*div serviços*/
+
+.container-servicos{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 33rem;
+    margin-top: 4rem;
+    
+}
+
+.div-servicos1, .div-servicos2{
+    
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 30rem;
+    width: 35%;
+    color: #724432;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.168);
+}
+
+.div-servicos1{
+    margin-right: 1rem;
+    background: linear-gradient(rgba(255, 255, 255, 0.71), #E8C6B0,#E8C6B0,#724432bf);
+    transition: 0.3s;
+    text-align: center;
+   
+    
+}
+
+.div-servicos2{
+    margin-left: 1rem;
+    background: linear-gradient(#724432,#724432d6,#E8C6B0);
+    color: #e9d4c6;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.195);
+    transition: 0.3s;
+    text-align: center;
+    
+    
+}
+
+.div-servicos1:hover,.div-servicos2:hover{
+    width: 40%;
+    min-height: 33rem;
+    transition: 0.3s;
+    
+}
+
+.div-servicos1 h2, .div-servicos2 h2{
+    height: 2rem;
+    font-size: 1.5rem;
+    
+}
+.div-servicos1 p, .div-servicos2 p{
+    font-size: 1.2rem;
+    padding: 1rem;
+    height: 8rem;
+    text-align: center;
+}
+
+/*fim serviços*/
+
+/*div formulario*/
+
+.div-formulario{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto;
+    background-color: #673C2B;
+    padding: 2rem 0;
+    border-radius: 1rem;
+}
+
+.div-formulario h2{
+    padding: 1rem;
+    color: rgb(215, 215, 215);
+    
+}
+.div-formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.div-formulario form input,textarea{
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    border: solid 1px #502f22;
+    border-radius: 0.5rem;
+    background-color: #dcbaa3;
+}
+
+.div-formulario form input::placeholder,textarea::placeholder{
+    color: #502f22;
+}
+
+.div-formulario button{
+    padding: 0.6rem 1rem;
+    width: 10rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: #DCBAA3;
+    color: #673C2B;
+    transition: 0.3s;
+    font-family: monospace;
+    margin: auto;
+}
+
+.div-formulario button:hover{
+    background-color: #9a8171;
+}
+
+/*fim formulario*/
+
+/*div beneficios*/
+
+.div-beneficios {
+    max-width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.div-beneficios h2 {
+    text-align: center;
+    color: #724432;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.div-beneficios ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.div-beneficios ul li {
+    background: #e9d4c6;
+    margin: 10px 0;
+    padding: 30px 15px;
+    border-left: 5px solid #724432;
+    border-radius: 5px;
+    transition: 0.3s;
+    color: #724432;
+}
+
+.div-beneficios ul li:hover {
+    background:#925740;
+    color: white;
+}
+
+.div-beneficios ul li::before {
+    content: "✔";
+    color: #724432;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.div-beneficios ul li {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/*fim beneficios*/
+
+/*div qualificacao*/
+
+.container-qualificacao {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #caa68d;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #7244323c;
+}
+
+.container-qualificacao h2 {
+    text-align: center;
+    color: #724432;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.container-qualificacao p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #724432;
+}
+
+#icon-check {
+    color: #724432;
+    margin-right: 10px;
+}
+
+/*fim qualificacao*/
+
+.div-depoimento {
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    background: #673C2B;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.div-depoimento h2 {
+    text-align: left;
+    color: #e9d4c6;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.div-depoimento p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #e9d4c6;
+    margin-bottom: 1.5rem; /* Espaço entre os depoimentos */
+}
+
+/*fim depoimento*/
+
+/*div agende sua consulta*/
+
+.container-agendesuaconsulta {
+    width: 70%;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    background-color: #caa68d;
+}
+
+.container-agendesuaconsulta div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-agendesuaconsulta-contato{
+    padding-left: 1rem;
+    margin-left: 2rem;
+    border-left: solid 1px #724432 ;
+   
+}
+
+.container-agendesuaconsulta h3 {
+    font-size: 24px;
+    color: #724432;
+    margin-bottom: 20px;
+}
+
+.container-agendesuaconsulta p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+    color: #724432;
+}
+
+#botao-agendar-consulta{
+    padding: 0.6rem 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: #724432;
+    color: #E8C6B0;
+    transition: 0.3s;
+    font-family: monospace;
+}
+
+#botao-agendar-consulta:hover{
+    background-color: #502f22;
+}
+
+/*div melhore sua saude*/
+
+/*botao whatsapp*/
+
+.botao-whatsapp{
+    display: flex;
+    font-size: 2.5rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 5;
+    
+}
+
+.botao-whatsapp a{
+    color: white;
+    background-color: #25D366;
+    border-radius: 50%;
+    padding: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    transition: 0.3s;
+    
+}
+
+a#instagram{
+    background: linear-gradient(45deg, #833AB4, #E1306C, #F77737); 
+    color: white; 
+}
+
+.botao-whatsapp a:hover{
+    font-size: 3rem;
+    
+}
+
+
+/*fim botao whatsapp*/
+
+
+@media (max-width:768px){
+    .container-main{
+        background-image: url('../img/bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 80rem;
+    }
+    
+    .div-sobremim{
+        width: 95%;
+        text-align: center;
+    }
+    
+    /*div posoperatorio*/
+    .container-posoperatorio{
+        flex-direction: column;
+    }
+    
+    .div-posoperatorio1{
+        width: 95%;
+    }
+    
+    .div-posoperatorio2{
+        width: 95%;
+        
+    }
+
+    /*fim posopetaorio*/
+    
+    /*div serviços*/
+    
+    .container-servicos{
+        flex-direction: column;
+        width: 95%;
+        min-height: 50rem;
+    }
+    
+    .div-servicos1, .div-servicos2{
+        flex-direction: column;
+        width: 90%;
+        justify-content: center;
+        margin: auto;
+        margin-top: 2rem;
+
+    }
+   
+    
+    .div-servicos1:hover,.div-servicos2:hover{
+        width: 95%;
+        min-height: 33rem;
+    }
+   
+ 
+    /*fim serviços*/
+    
+    /*div formulario*/
+    
+    .div-formulario{
+        width: 90%;
+    }
+   
+    .div-formulario form{
+        width: 80%;
+    }
+    
+    /*fim formulario*/
+    
+    /*div beneficios*/
+    
+    .div-beneficios {
+        max-width: 90%;
+    }
+    
+    /*fim beneficios*/
+    
+    /*div qualificacao*/
+    
+    .container-qualificacao {
+        max-width: 90%;
+    }
+    
+    /*fim qualificacao*/
+    
+   
+    
+    /*div agende sua consulta*/
+    
+    .container-agendesuaconsulta {
+        flex-direction: column;
+        width: 90%;
+    }
+    
+    .container-agendesuaconsulta div{
+        width: 90%;
+        text-align: center;
+        margin: auto;
+        
+    }
+    
+    .div-agendesuaconsulta-contato{
+        padding-left: 0rem;
+        margin-left: 0rem;
+       
+    }
+    
+    /*div melhore sua saude*/  
+    
+}

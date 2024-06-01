@@ -1,0 +1,22 @@
+.container-footer{
+    width: 100%;
+    margin-top: 5rem;
+    
+}
+
+.container-footer p{
+    border-top: solid 1px black;
+    color:#502f22;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+
+@media (max-width: 768px){
+    
+    .container-footer p{
+        width: 90%;
+}
+}

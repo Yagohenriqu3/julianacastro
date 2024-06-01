@@ -1,0 +1,90 @@
+.container-header{
+    background-image: url('../img/massagem2');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0),  rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgb(255, 255, 255)), url('../img/massagem2');
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+   
+   
+}
+
+.div-bemvindo{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: #673c2b6e;
+    margin-left: 5rem;
+    user-select: none;
+    
+}
+
+.div-bemvindo h3{
+    font-size: 1.5rem;
+    color: rgb(232, 232, 232);
+    font-family: sans-serif;
+    text-shadow: 4px 1px 3px #673C2B;
+
+}
+
+.div-bemvindo h1{
+    font-size: 5rem;
+    color: rgb(230, 230, 230);
+    text-shadow: 4px 4px 3px #673C2B;
+}
+
+.div-bemvindo p{
+    color: rgb(239, 239, 239);
+    text-shadow: 3px 1px 3px #673C2B;
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+    font-family: sans-serif;
+}
+
+
+@media( max-width:768px){
+    .container-header{
+        background-image: url('../img/massagem2');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0),  rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgb(255, 255, 255)), url('../img/massagem2');
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+       
+       
+    }
+    
+    .div-bemvindo{
+        
+        width: 90%;
+        padding: 3rem 2rem;
+        margin: auto;
+       
+        
+    }
+    
+    .div-bemvindo h3{
+        font-size: 1.2rem;
+       
+    
+    }
+    
+    .div-bemvindo h1{
+        font-size: 3rem;
+       
+    }
+    
+    .div-bemvindo p{
+        font-size: 1rem;
+      
+    }
+}
